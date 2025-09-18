@@ -39,6 +39,7 @@ const EditPost = () => {
     <div className="max-w-md mx-auto">
       <h1 className="text-2xl font-bold mb-4">Edit Post</h1>
       <PostForm onSubmit={onSubmit} defaultValues={post} submitText="Update Post" />
+      
     </div>
   )
 }
