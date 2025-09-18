@@ -1,0 +1,4 @@
+[build]
+  base = "my-app"          # 👈 your project folder
+  command = "npm run build"
+  publish = "my-app/dist"  # 👈 where vite outputs build
